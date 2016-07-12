@@ -21,16 +21,16 @@ const smd = require('seu-markdown');
 
 ### `.md.render`
 
-toc
+tbd
 
 ### `.md.iframes`
 
-toc
+tbd
 
 ### `.parse(content)`
 
-toc
+tbd
 
 ### `.parseToc(content)`
 
-toc
+tbd
