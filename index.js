@@ -3,6 +3,7 @@
 const _ = require('lodash');
 const md = require('./markdown');
 const option = require('./util/option');
+const log = require('./util/log');
 
 exports.md = md;
 exports.parse = parseContent;
