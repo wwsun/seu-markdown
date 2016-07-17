@@ -53,11 +53,7 @@ exports.blockcode = function (code, language) {
         if (language === 'javascript') {
             try {
                 renderedCode = babel.transform(code, {
-                    'presets': [
-                        'es2015',
-                        'react',
-                        'stage-0'
-                    ]
+                    presets: ['es2015', 'react', 'stage-0'],
                 }).code;
             } catch (e) {
                 console.log(e);
